@@ -1,4 +1,4 @@
-# 🌆 GTA RP Server Website
+# 🌆 Hannibal RP - GTA RP Server Website
 
 A fully functional web portal built for a **GTA Roleplay (RP) server** community. This website serves as the central hub for players to manage their accounts, stay updated on server events, connect with the Discord server, and engage with the staff team.
 
