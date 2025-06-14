@@ -40,7 +40,13 @@ A fully functional web portal built for a **GTA Roleplay (RP) server** community
 ![Launcher](screenshots/launcher.png)
 ![Account](screenshots/account.png)
 
+
 ---
+
+## 🎥 Demo Video
+
+🎬 *Watch how the app works in real-time*  
+👉 [Watch the video](https://www.linkedin.com/posts/yassin-medhioub-6a05aa212_webdevelopment-gta5rp-fullstackdevelopment-activity-7339562277144002560-wuK6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADXWTVgBrSW5LkeqY476dil9ccfS6_2mAtQ)
 
 ## 🛠️ Tech Stack
 
