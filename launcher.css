@@ -1,0 +1,45 @@
+body{
+    margin: 5ch;
+    padding: 0;
+    background-image: url(images/after1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttons{
+    margin-top:40vh;
+
+}
+input{
+    border-radius: 2ch;
+}
+.big{
+    width: 10ch;
+    height: 2ch;
+    background-color: transparent;
+    color: orangered;
+    font-size: 4ch;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1, h2 , h3{
+    display: inline;
+}
+.small{
+    margin: 2ch 1ch 1ch 1.1ch;
+    width: 11ch;
+    height: 3ch;
+    background-color: transparent;
+    color: orangered;
+    font-size: 2ch;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.big:hover{
+    background-color: orangered;
+    color: white;
+}
+.small:hover{
+    background-color: orangered;
+    color: white;
+}

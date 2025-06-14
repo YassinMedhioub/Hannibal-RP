@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.foot {
+	width: 30%;
+	padding: 0 15px;
+	margin-top: 10vh;
+
+}
+
+.container {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer {
+	background-color: #24262b;
+	padding: 70px 0;
+}
+
+.footer-col {
+	width: 30%;
+	padding: 0 15px;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.padd {
+	padding-left: 20%;
+	padding-right: 20%;
+
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 574px) {
+	.footer-col {
+		width: 100%;
+	}
+}
+
+
+
+.ekherhaja {
+	background: linear-gradient(45deg, );
+	transform: perspective(60rem);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.Menu-list {
+	font-size: 4.25rem;
+	line-height: 1.2;
+	text-transform: uppercase;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transform: rotateX(-10deg) rotateY(20deg);
+}
+
+.Menu-list-item {
+	position: relative;
+	color: transparent;
+	cursor: pointer;
+}
+
+.Menu-list-item::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 49%;
+	left: -10%;
+	right: -10%;
+	height: 4px;
+	border-radius: 4px;
+	margin-top: -2px;
+	background: #ff2c75;
+	transform: scale(0);
+	transition: transform 0.8s cubic-bezier(0.16, 1.08, 0.38, 0.98);
+	z-index: 1;
+}
+
+.Mask {
+	display: block;
+	position: absolute;
+	overflow: hidden;
+	color: #ff2c75;
+	top: 0;
+	height: 49%;
+	transition: all 0.8s cubic-bezier(0.16, 1.08, 0.38, 0.98);
+}
+
+.Mask span {
+	display: block;
+}
+
+.Mask+.Mask {
+	top: 48.9%;
+	height: 51.1%;
+}
+
+.Mask+.Mask span {
+	transform: translateY(-49%);
+}
+
+.Menu-list-item:hover .Mask,
+.Menu-list-item:active .Mask {
+	transform: skewX(12deg) translateX(5px);
+}
+
+.Menu-list-item:hover .Mask+.Mask,
+.Menu-list-item:active .Mask+.Mask {
+	transform: skewX(12deg) translateX(-5px);
+}
+
+.Menu-list-item:hover::before,
+.Menu-list-item:active::before {
+	transform: scale(1);
+}
+
+button {
+	width: 20%;
+	height: 30%;
+	font-size: 25PX;
+	background-color: #183439;
+	color: #8bb7b7;
+	margin-right: 4%;
+}
+
+button:hover {
+	width: 20%;
+	height: 30%;
+	font-size: 25PX;
+	background-color: #8bb7b7;
+	color: #183439;
+	margin-right: 4%;
+}
+
+.soustitre,
+.dev,
+.desc,
+.left,
+p {
+	color: white;
+}
+
+h4 {
+	color: tomato;
+}
+
+.member-img {
+	margin-bottom: 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.imgslide {
+	width: 50%;
+	height: 60%;
+	margin-top: -10%;
+	animation: fadeIn 1.5s;
+	-webkit-animation: fadeIn 1.5s;
+	-moz-animation: fadeIn 1.5s;
+	-o-animation: fadeIn 1.5s;
+	-ms-animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.herelogo {
+	border-radius: 50%;
+	z-index: 1;
+	width: 13%;
+	height: 13%;
+	margin-top: -5%;
+	animation: fadeIn 1.5s;
+	-webkit-animation: fadeIn 1.5s;
+	-moz-animation: fadeIn 1.5s;
+	-o-animation: fadeIn 1.5s;
+	-ms-animation: fadeIn 1.5s;
+
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@-moz-keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@-webkit-keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@-o-keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@-ms-keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+}
+
+.img-fluid {
+	box-shadow: 120px 80px 40px 20px #183439;
+	border: 0px #183439 solid;
+	border-radius: 20px;
+
+}
+
+::-webkit-scrollbar {
+	width: 0.9vw;
+	background: #777;
+}
+
+::-webkit-scrollbar-thumb {
+	background: -webkit-linear-gradient(transparent, #ff2c75);
+	background: linear-gradient(transparent, #ff2c75);
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: -webkit-linear-gradient(transparent, #00c6ff);
+	background: linear-gradient(transparent, #00c6ff);
+}
+
+.fixedlogo {
+	margin-left: 50%;
+	background-color: blue;
+	margin-right: 50%;
+
+}
+
+.cr {
+	color: white;
+	margin-top: 10%;
+	margin-bottom: -100%;
+
+}
+
+#pr {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@media(max-width: 1400px) {
+	#pr {
+		width: 30%;
+		height: 50%;
+	}
+}
+
+.success {
+	color: greenyellow;
+}
+
+.error {
+	color: red;
+}
+
+#management {
+	margin-top: -20vh;
+	margin-bottom: -20vh;
+
+}
+
+input[readonly] {
+    background-color: #f0f0f0; /* light gray */
+    color: #000; /* black text */
+}

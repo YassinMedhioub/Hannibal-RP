@@ -1,0 +1,181 @@
+/*All licence and rights are reserved!! this website is developed by Nemss nd u can't take any script of this website
+     without permission...
+     If u want somthing just contact him :
+     IG: nemss__
+     Discord: NEMSS#8451*/
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 20vh;
+}
+header b {
+    margin: auto;
+}
+header img{
+    height: 25ch;
+    width: 40ch;
+    margin-left: -10ch;
+    margin-top: -5ch;
+}
+body{
+    
+    
+    align-items: center;
+    min-height: 100vh;
+    background: #232c33;
+}
+.west{
+    background-color: #fff;
+    border-radius: 5ch;
+    display: grid;
+    justify-content: center;
+    margin-left: -30vh;
+    float: left;
+    margin-left: 70px;
+    margin-top: 6vh;
+}
+.west1 , .west2 , .west3{
+    padding: 10vh;
+
+}
+.navigation{
+    display: flex;
+    position: relative;
+    height: 77.5vh;
+    width: 70px;
+    background: #2b343b;
+    box-shadow: 10px 0 0 #ff2c75;
+    border-left: 10px solid #2b343b;
+    overflow-x: hidden;
+    transition: width 0.5s;
+    justify-content: left;
+    float: left;
+}
+.navigation:hover{
+    width: 300px;
+
+}
+.navigation ul
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 30px;
+}
+.navigation ul li
+{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 3.5vh;
+}
+.navigation ul li.active{
+    background: #ff2c75;
+}
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+.navigation ul li.active a::before{
+content: '';
+position: absolute;
+top: -30px;
+right: 0;
+width: 30px;
+height: 30px;
+background: #2b343b;
+border-radius: 50%;
+box-shadow: 15px 15px 0 #ff2c75;
+}
+.navigation ul li.active a::after{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: #2b343b;
+    border-radius: 50%;
+    box-shadow: 15px -15px 0 #ff2c75;
+    }
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+.navigation ul li a .icon ion-icon{
+    position: relative;
+    font-size: 1.5em;
+    z-index: 1;
+}
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+}
+.titles{
+    font-size: 2.5ch;
+    font-family: z;
+}
+@media (max-width:700px){
+    .navigation{
+        display: none;
+    }
+    table{
+        border: black 5px solid;
+        width: 100vh;
+        margin: auto;
+    }
+    th{
+        border: black 5px solid;
+        margin: 60px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .west{
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    hr{
+        display: none;
+    }
+    .nemss{
+        font-size: 1ch;
+
+    }
+}
+@media (min-width:701px){
+    .navphone{
+        display: none;
+    }
+    .nemss{
+        font-size: 3ch;
+    }
+
+}
