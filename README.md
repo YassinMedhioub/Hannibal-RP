@@ -29,9 +29,16 @@ A fully functional web portal built for a **GTA Roleplay (RP) server** community
 
 ## 📸 Screenshots
 
-<!-- Optional: Add images if you want -->
-<!-- ![Homepage](screenshots/home.png) -->
-<!-- ![Events](screenshots/events.png) -->
+![Homepage](screenshots/home.png)
+![SignUp](screenshots/signup.png)
+![Discord](screenshots/discord.png)
+![Team](screenshots/team.png)
+![Contact](screenshots/contact.png)
+![Rules](screenshots/rules.png)
+![UpcomingEvents](screenshots/events.png)
+![PrevEvents](screenshots/events2.png)
+![Launcher](screenshots/launcher.png)
+![Account](screenshots/account.png)
 
 ---
 
