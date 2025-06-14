@@ -1,0 +1,53 @@
+# 🌆 GTA RP Server Website
+
+A fully functional web portal built for a **GTA Roleplay (RP) server** community. This website serves as the central hub for players to manage their accounts, stay updated on server events, connect with the Discord server, and engage with the staff team.
+
+---
+
+## 🚀 Features
+
+- 📝 **User Authentication**
+  - Register, login, logout
+  - Manage profile: change username and password
+
+- 💬 **Contact the Team**
+  - Send messages directly to server admins/staff via a contact form
+
+- 📢 **Events Section**
+  - View **upcoming** events and browse through **past** ones
+
+- 👨‍👩‍👧‍👦 **The Team Page**
+  - Meet the admins, moderators, and key community members
+
+- 📜 **Rules Page**
+  - Display the official server rules to maintain order and roleplay quality
+
+- 🔗 **Discord Integration**
+  - View and join the official Discord server straight from the website
+
+---
+
+## 📸 Screenshots
+
+<!-- Optional: Add images if you want -->
+<!-- ![Homepage](screenshots/home.png) -->
+<!-- ![Events](screenshots/events.png) -->
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript (Vanilla or with framework - specify if used)
+- **Backend:** PHP / Node.js / Python (specify which you used)
+- **Database:** MySQL / MongoDB (specify the one you used)
+- **Other:** Discord Widget or API (if applicable)
+
+---
+
+## 🧑‍💻 Setup & Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yourusername/gta-rp-website.git
+   cd gta-rp-website
