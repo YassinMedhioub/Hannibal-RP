@@ -37,10 +37,10 @@ A fully functional web portal built for a **GTA Roleplay (RP) server** community
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript (Vanilla or with framework - specify if used)
-- **Backend:** PHP / Node.js / Python (specify which you used)
-- **Database:** MySQL / MongoDB (specify the one you used)
-- **Other:** Discord Widget or API (if applicable)
+- **Frontend:** HTML, CSS, JavaScript , Bootstrap
+- **Backend:** PHP 
+- **Database:** MySQL 
+- **Other:** Discord Widget 
 
 ---
 
@@ -49,5 +49,5 @@ A fully functional web portal built for a **GTA Roleplay (RP) server** community
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/gta-rp-website.git
-   cd gta-rp-website
+   git clone https://github.com/YassinMedhioub/Hannibal-RP.git
+   cd Hannibal-RP
